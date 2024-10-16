@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="img/undraw_shopping_re_hdd9.svg">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label  for="NIF"> NIF:</label>  
+                        <input required id="NIF" type="text" placeholder="NIF"><br><br>
+                    </div>
+                   <div class="input-box">
+                        <label for="nome"> Nome:</label>
+                        <input required id="nome" type="text" name="nome" placeholder="Digite o seu nome">
+                    </div>
+                    <div class="input-box">
+                        <label for="end"> Endereço:</label>
+                        <input required id="end" type="text" name="endereço" placeholder="Endereço">
+                    </div> 
+                    <div class="input-box">
+                        <label for="number"> Telefone</label>
+                        <input required id="number" type="tel"   name="number" placeholder="XXX XXX XXX">
+                    </div> 
+                    <div class="input-box">
+                        <label for="email"> Endereço eletronico</label>
+                        <input required id="email" type="email"  name="email" placeholder="email@ ">
+                    </div>
+                    <div class="input-box">
+                        <label for="data"> Data de Nascimento</label>
+                        <input required id="date" name="data">
+                    </div>
+                    <div class="input-box">
+                        <select name="País">
+                            <option selected disabled value=""> Selecione um País</option>
+                            <option value="Angola"> Angola</option>
+                            <option  value="Alemanha">Alemanha</option>
+                            <option  value="Inglaterra">Inglaterra</option>
+                            <option  value="Portugal"> Portugal</option>
+                            <option  value="São Tomé e Príncipe">São Tomé e Príncipe</option>
+                            <option value="Marrocos">Marrocos</option>
+                            <option value="Mozambique">Mosabingue</option>
+                            <option value="Japão">Japão</option>
+                            <option value="Cuba">Cuba</option>
+                            <option value="Russia">Russia</option>
+                            <option value="Brasil">Brasil</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <select name="Cidades">
+                            <option  selected disabled value="" >Selecione uma Cidade</option>            
+                            <option value= "Luanda">Luanda</option>
+                            <option value= "São Paulo">Cabinda</option>
+                            <option value= "Lisboa">Lubango</option>
+                            <option value= "Berlim">Berlim</option>
+                            <option value= "Moscou">Moscou</option>
+                            <option value= "Sintra">Sintra</option>
+                            <option value= "Lubango">Lubango</option>
+                            <option value= "Munique">Munique</option>
+                            <option value= "Londres">Londres</option>
+                            <option value= "São Tomé">São Tomé</option>
+                            <option value= "Maputo">Maputo</option>
+                            <option value= "Casablanca">Casablanca</option>
+                            <option value= "Tokyo">Tokyo</option>
+                            <option value= "Havana">Havana</option>
+                            <option value= "Osaka">Osaka</option> 
+                        </select>
+                    </div>                  
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6> Genero</h6>
+                    </div>
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="M" name="Gênero" value="Masculino">
+                            <label for="M">Masculino</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="F" name="Feminino" value="Feminino">
+                            <label for="F">Femenino</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+        
+        
+              
+
+
+</body>  
